@@ -298,11 +298,28 @@
   flex-direction: row;
 }
 
+.contact__description {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 50%;
+}
+
+.footer__form {
+  margin-top: 20px;
+}
+
+.footer__input {
+  border-radius: 10px;
+}
+
 .left {
   float:left;
 }
 
 .right {
+  width: 500px;
   float: right;
 }
 
@@ -314,5 +331,9 @@
   .footer__container {
     flex-direction: column;
     row-gap: 200px;
+  }
+
+  .right {
+    width: 350px;
   }
 }
